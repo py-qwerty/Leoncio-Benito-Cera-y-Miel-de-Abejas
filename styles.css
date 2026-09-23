@@ -487,6 +487,17 @@ h3 {
   line-height: 1.45;
 }
 
+.company-fleet {
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.company-fleet__source {
+  margin-top: 24px;
+  color: var(--graphite);
+  font-family: var(--sans);
+  font-size: 0.76rem;
+}
+
 .company-supply {
   padding: clamp(64px, 8vw, 112px) 0;
   border-block: 1px solid var(--line-dark);
