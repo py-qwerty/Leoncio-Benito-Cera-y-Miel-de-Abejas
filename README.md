@@ -19,6 +19,12 @@ carpetas documentales originales situadas junto a este repositorio; se conservan
 con nombres breves para su uso en la web. Las fechas y resúmenes de la cronología
 se basan en las transcripciones de esas carpetas.
 
+La letra de cambio se muestra en `assets/documentos/letra-de-cambio-reconstruida-ia.png`,
+una reconstrucción con IA generada a partir del escaneo para hacer visibles más
+detalles. El margen exterior es transparente. Puede diferir del documento en trazos pequeños o letras ambiguas. La
+imagen escaneada original (`letra-de-cambio.jpg`) y el PDF original se conservan
+y están enlazados desde la página de documentos para consulta y comparación.
+
 La descripción de la actividad desde 1923, la planta de San Ramón 206, las
 provincias proveedoras y la red comercial procede del relato familiar aportado
 para la web. Los nombres y ciudades de casas y agentes reflejan las correcciones
