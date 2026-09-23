@@ -247,9 +247,24 @@ h3 {
 }
 
 .home-hero h1 {
-  max-width: 6.2ch;
+  max-width: 12ch;
   margin-bottom: 34px;
-  font-size: clamp(4.3rem, 8.7vw, 8.2rem);
+  font-size: clamp(3.7rem, 5.5vw, 6.6rem);
+}
+
+.home-hero__company,
+.home-hero__claim {
+  display: block;
+}
+
+.home-hero__claim {
+  margin-top: 0.55em;
+  color: var(--graphite);
+  font-family: var(--sans);
+  font-size: 0.4em;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
 }
 
 .home-hero__lead {
@@ -380,14 +395,7 @@ h3 {
   margin-bottom: 30px;
 }
 
-.display-year {
-  margin-bottom: 22px;
-  color: var(--ash);
-  font-size: clamp(4rem, 7vw, 7rem);
-  line-height: 0.82;
-}
-
-.feature__copy p:not(.eyebrow):not(.display-year) {
+.feature__copy p:not(.eyebrow) {
   color: var(--graphite);
 }
 

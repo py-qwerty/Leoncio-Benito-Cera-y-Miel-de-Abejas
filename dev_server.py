@@ -27,13 +27,20 @@ class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
 
+    def end_headers(self):
+        self.send_header("Cache-Control", "no-store")
+        super().end_headers()
+
+    def log_message(self, format, *args):
+        if self.path != "/_dev/version":
+            super().log_message(format, *args)
+
     def do_GET(self):
         if self.path == "/_dev/version":
             files = (path for path in ROOT.rglob("*") if path.suffix.lower() in {".html", ".css", ".jpg", ".jpeg", ".png", ".svg"})
             version = str(max((path.stat().st_mtime_ns for path in files), default=0)).encode()
             self.send_response(200)
             self.send_header("Content-Type", "text/plain")
-            self.send_header("Cache-Control", "no-store")
             self.send_header("Content-Length", str(len(version)))
             self.end_headers()
             self.wfile.write(version)
@@ -46,7 +53,6 @@ class Handler(SimpleHTTPRequestHandler):
             page = path.read_bytes().replace(b"</body>", RELOAD_SCRIPT + b"</body>")
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
-            self.send_header("Cache-Control", "no-store")
             self.send_header("Content-Length", str(len(page)))
             self.end_headers()
             self.wfile.write(page)
