@@ -598,6 +598,24 @@ h3 {
   font-size: 0.95rem;
 }
 
+.company-network__note a,
+.company-network__columns p a,
+.company-network__sources a {
+  color: var(--paper-light);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.company-network__sources {
+  margin: 42px 0 0;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  color: #d1cbc0;
+  font-family: var(--sans);
+  font-size: 0.76rem;
+  line-height: 1.65;
+}
+
 .company-network .text-link {
   margin-top: 12px;
 }

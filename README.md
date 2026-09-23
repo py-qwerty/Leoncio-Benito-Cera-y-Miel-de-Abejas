@@ -24,3 +24,14 @@ provincias proveedoras y la red comercial procede del relato familiar aportado
 para la web. Los nombres y ciudades de casas y agentes reflejan las correcciones
 aportadas por la familia; no se publican direcciones postales ni claves
 telegráficas sin cotejarlas con los originales.
+
+La sección bancaria distingue entre pruebas del archivo y el relato familiar.
+Los formularios de cheques de Camagüey son muestras sin datos de pago; la carta
+de 1934 menciona expresamente a The Royal Bank of Canada y Guaranty Trust
+Company. La grafía de Deutsch-Südamerikanische Bank AG se comprobó en la
+[Deutsche Digitale Bibliothek](https://www.deutsche-digitale-bibliothek.de/item/OYG7QQ476GQKEHFSUYUQUXKNZGKUZVR5).
+La existencia de esa entidad está documentada, pero su vínculo concreto con la
+empresa procede del relato familiar. Los cambios de nombre de National City
+Bank y Chase se contrastaron con las historias publicadas por
+[Citi](https://www.citigroup.com/rcs/citigpa/akpublic/storage/public/argentina_2010_spanish.pdf)
+y [JPMorganChase](https://www.jpmorganchase.com/about/our-history).
