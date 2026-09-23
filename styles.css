@@ -718,6 +718,13 @@ h3 {
   background: var(--paper-light);
 }
 
+.company-shipping__item--wide {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(36px, 7vw, 90px);
+}
+
 .company-shipping__origin,
 .company-shipping__cable {
   font-family: var(--sans);
@@ -751,6 +758,24 @@ h3 {
 
 .company-shipping__item .company-shipping__cable {
   margin-top: 20px;
+}
+
+.company-shipping__process {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: clamp(36px, 7vw, 100px);
+  margin-top: 58px;
+  padding-top: 42px;
+  border-top: 1px solid var(--line-dark);
+}
+
+.company-shipping__process h3 {
+  max-width: 13ch;
+  font-size: clamp(2.2rem, 4vw, 4rem);
+}
+
+.company-shipping__process p:not(.eyebrow) {
+  color: var(--graphite);
 }
 
 .company-shipping__sources {
@@ -1457,6 +1482,8 @@ h3 {
   .company-network__columns,
   .company-partners__grid,
   .company-shipping__grid,
+  .company-shipping__item--wide,
+  .company-shipping__process,
   .case-intro,
   .source__grid,
   .method__grid,
