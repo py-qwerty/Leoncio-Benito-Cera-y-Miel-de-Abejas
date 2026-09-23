@@ -37,7 +37,7 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == "/_dev/version":
-            files = (path for path in ROOT.rglob("*") if path.suffix.lower() in {".html", ".css", ".jpg", ".jpeg", ".png", ".svg"})
+            files = (path for path in ROOT.rglob("*") if path.suffix.lower() in {".html", ".css", ".jpg", ".jpeg", ".png", ".svg", ".pdf"})
             version = str(max((path.stat().st_mtime_ns for path in files), default=0)).encode()
             self.send_response(200)
             self.send_header("Content-Type", "text/plain")
