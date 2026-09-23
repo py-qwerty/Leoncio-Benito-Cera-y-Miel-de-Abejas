@@ -4,6 +4,9 @@ Sitio de la empresa Leoncio Benito y Compañía, dedicada al comercio y
 procesado de miel y cera cubanas desde 1923. Incluye su historia y archivo
 documental.
 
+La investigación de fuentes externas, imágenes históricas, créditos y límites
+de atribución está en [INVESTIGACION_CONTEXTO.md](INVESTIGACION_CONTEXTO.md).
+
 ## Vista previa local
 
 Desde la raíz del proyecto, ejecuta `python3 dev_server.py` y abre
