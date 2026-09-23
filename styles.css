@@ -685,6 +685,87 @@ h3 {
   font-size: 0.72rem;
 }
 
+.company-shipping {
+  padding: clamp(68px, 9vw, 112px) 0;
+  border-bottom: 1px solid var(--line-dark);
+  background: var(--paper);
+}
+
+.company-shipping__intro {
+  max-width: 850px;
+  margin-bottom: 42px;
+}
+
+.company-shipping__intro h2 {
+  max-width: 16ch;
+  margin-bottom: 22px;
+}
+
+.company-shipping__intro > p:last-child {
+  color: var(--graphite);
+}
+
+.company-shipping__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  border: 1px solid var(--line-dark);
+  background: var(--line-dark);
+}
+
+.company-shipping__item {
+  padding: clamp(28px, 4vw, 48px);
+  background: var(--paper-light);
+}
+
+.company-shipping__origin,
+.company-shipping__cable {
+  font-family: var(--sans);
+  font-size: 0.73rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.company-shipping__origin {
+  margin-bottom: 26px;
+  color: var(--graphite);
+}
+
+.company-shipping__item h3 {
+  max-width: 16ch;
+  margin-bottom: 24px;
+}
+
+.company-shipping__item p:not(.company-shipping__origin) {
+  margin-bottom: 8px;
+}
+
+.company-shipping__item strong {
+  font-weight: 600;
+}
+
+.company-shipping__alias {
+  color: var(--graphite);
+  font-style: italic;
+}
+
+.company-shipping__item .company-shipping__cable {
+  margin-top: 20px;
+}
+
+.company-shipping__sources {
+  max-width: 960px;
+  margin: 26px 0 0;
+  color: var(--graphite);
+  font-family: var(--sans);
+  font-size: 0.76rem;
+  line-height: 1.65;
+}
+
+.company-shipping__sources a {
+  text-underline-offset: 3px;
+}
+
 .company-next {
   border-bottom: 1px solid var(--line-dark);
   background: var(--paper);
@@ -1375,6 +1456,7 @@ h3 {
   .company-next__grid,
   .company-network__columns,
   .company-partners__grid,
+  .company-shipping__grid,
   .case-intro,
   .source__grid,
   .method__grid,

@@ -40,3 +40,11 @@ El retrato destacado de Leoncio Benito es una restauración digital en blanco y
 negro generada con la herramienta integrada de imagen a partir del escaneo
 `assets/expo-1958/fotografia-original-oficina-recortada.jpeg`. El original se
 conserva junto a la versión restaurada para consulta y comparación.
+
+La relación de cuatro navieras y sus contactos en La Habana procede del relato
+familiar. Los nombres Holland-America Line, Hamburg-Amerika Linie,
+Norddeutscher Lloyd y Compañía Trasatlántica Española se cotejaron con fuentes
+históricas enlazadas en la sección de transporte marítimo. Anuncios de época
+confirman a R. Dussaq, S. en C. y Luis Clasing como representantes. Los apartados
+y claves Cable publicados son los facilitados por la familia; queda pendiente
+localizar correspondencia de la firma que pruebe qué envíos cursó por cada línea.
