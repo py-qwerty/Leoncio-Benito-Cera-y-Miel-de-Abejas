@@ -22,8 +22,8 @@ se basan en las transcripciones de esas carpetas.
 La descripción de la actividad desde 1923, la planta de San Ramón 206, las
 provincias proveedoras y la red comercial procede del relato familiar aportado
 para la web. Los nombres y ciudades de casas y agentes reflejan las correcciones
-aportadas por la familia; no se publican direcciones postales ni claves
-telegráficas sin cotejarlas con los originales.
+aportadas por la familia. Se publican las claves telegráficas que esta ha
+facilitado; las direcciones postales quedan pendientes de cotejo con los originales.
 
 La sección bancaria distingue entre pruebas del archivo y el relato familiar.
 Los formularios de cheques de Camagüey son muestras sin datos de pago; la carta

@@ -673,6 +673,13 @@ h3 {
   text-align: right;
 }
 
+.company-partners__list small {
+  display: block;
+  margin-top: 4px;
+  color: var(--ink);
+  font-size: 0.72rem;
+}
+
 .company-next {
   border-bottom: 1px solid var(--line-dark);
   background: var(--paper);
