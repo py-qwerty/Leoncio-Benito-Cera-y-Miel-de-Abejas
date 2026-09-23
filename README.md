@@ -35,3 +35,8 @@ empresa procede del relato familiar. Los cambios de nombre de National City
 Bank y Chase se contrastaron con las historias publicadas por
 [Citi](https://www.citigroup.com/rcs/citigpa/akpublic/storage/public/argentina_2010_spanish.pdf)
 y [JPMorganChase](https://www.jpmorganchase.com/about/our-history).
+
+El retrato destacado de Leoncio Benito es una restauración digital en blanco y
+negro generada con la herramienta integrada de imagen a partir del escaneo
+`assets/expo-1958/fotografia-original-oficina-recortada.jpeg`. El original se
+conserva junto a la versión restaurada para consulta y comparación.

@@ -546,6 +546,11 @@ h3 {
   text-transform: uppercase;
 }
 
+.company-plant__photo figcaption a {
+  color: inherit;
+  text-underline-offset: 2px;
+}
+
 .company-network {
   padding: clamp(68px, 9vw, 124px) 0;
   background: var(--ink);
