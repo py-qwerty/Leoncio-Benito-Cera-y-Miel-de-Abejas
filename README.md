@@ -13,9 +13,26 @@ Desde la raíz del proyecto, ejecuta `python3 dev_server.py` y abre
 <http://localhost:8765>. El navegador se recarga automáticamente al cambiar
 las páginas, la hoja de estilos o las imágenes.
 
+La interacción está en `site.js`, cargado en todas las páginas. Incluye la
+abeja animada: una recreación en SVG de la abeja del logotipo que sale del logo
+y se posa en titulares, fotografías, botones y finales de párrafo a medida que
+se hace scroll, y vuelve al logo al subir arriba del todo. Con la preferencia
+del sistema «Reducir movimiento» vuela más despacio y solo cambia de sitio al
+hacer scroll. Si el navegador no mantiene unos 42 fps, o el equipo es
+muy modesto, `site.js` pasa a un modo ligero: quita efectos caros y, si
+hace falta, dibuja la abeja a 30 fps. Para ver su estado en la consola, añade `?beedebug` a la URL y
+consulta `window.__bee`.
+
 Las páginas principales son `index.html`, `empresa/index.html`,
 `historial/index.html`, `documentos/index.html` y
 `historial/expo-1958/index.html`.
+
+El favicon y la vista previa al compartir usan la abeja de la marca en
+`assets/marca/`. Las etiquetas Open Graph y Twitter de las cinco páginas
+apuntan a la URL prevista de GitHub Pages
+(`https://py-qwerty.github.io/Leoncio-Benito-Cera-y-Miel-de-Abejas/`). Si se
+publica con otro dominio o nombre de repositorio, hay que actualizar las URL
+absolutas de `canonical`, `og:url`, `og:image` y `twitter:image`.
 
 Los escaneos y PDF del archivo están en `assets/documentos/`. Proceden de las
 carpetas documentales originales situadas junto a este repositorio; se conservan
@@ -49,6 +66,10 @@ El retrato destacado de Leoncio Benito es una restauración digital en blanco y
 negro generada con la herramienta integrada de imagen a partir del escaneo
 `assets/expo-1958/fotografia-original-oficina-recortada.jpeg`. El original se
 conserva junto a la versión restaurada para consulta y comparación.
+
+La imagen horizontal del despacho en la página de Expo 58 es una restauración
+digital en blanco y negro a partir de `assets/expo-1958/fotografia-original-oficina.jpeg`.
+La página enlaza la fotografía original para su comparación.
 
 La relación de cuatro navieras y sus contactos en La Habana procede del
 directorio inscrito de la empresa, según la información facilitada por el usuario.
